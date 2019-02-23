@@ -10,6 +10,10 @@ namespace PadawansTask4
             {
                 throw new ArgumentNullException();
             }
+            if ( str == "0")
+            {
+                throw new ArgumentException();
+            }
             char[] separate = { 'a', 'e', 'o', 'u', 'i' }  ;
             int result = 0;
             for (int i=0;i<str.Length;i++)
