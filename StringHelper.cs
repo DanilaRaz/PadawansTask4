@@ -10,7 +10,7 @@ namespace PadawansTask4
             {
                 throw new ArgumentNullException();
             }
-            if ( str == "0")
+            if ( str == "")
             {
                 throw new ArgumentException();
             }
